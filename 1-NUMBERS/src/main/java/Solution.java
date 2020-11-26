@@ -5,7 +5,7 @@ public class Solution {
             return value;
         }
 
-        return 8;
+        return getValue(value - 1) + getValue(value - 2);
     }
 
 }

@@ -28,11 +28,11 @@ public class SolutionTest {
         assertEquals(expectedValue, solution.getValue(givenInput));
     }
 
-//    @Test
-//    public void GivenInputIsEight_ShouldReturnTwentyOne() {
-//        int expectedValue = 21;
-//        int givenInput = 8;
-//
-//        assertEquals(expectedValue, solution.getValue(givenInput));
-//    }
+    @Test
+    public void GivenInputIsEight_ShouldReturnTwentyOne() {
+        int expectedValue = 21;
+        int givenInput = 8;
+
+        assertEquals(expectedValue, solution.getValue(givenInput));
+    }
 }
