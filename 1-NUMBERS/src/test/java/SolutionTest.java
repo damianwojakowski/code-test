@@ -35,4 +35,6 @@ public class SolutionTest {
 
         assertEquals(expectedValue, solution.getValue(givenInput));
     }
+
+    //TODO: Add more options with DataProvider
 }
